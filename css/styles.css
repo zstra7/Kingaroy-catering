@@ -10,3 +10,11 @@
 .shadow-text{
 	text-shadow: 0px 2px 5px #363636;
 }
+
+.footer-blue{
+	background-color: #272727 !important;
+}
+
+.footer-copyright{
+	background-color: #1F1F1F !important;
+}
