@@ -99,6 +99,48 @@ a{
 	padding-top: 20px;
 }
 */
+
+.tile {
+	margin: 0;
+}
+.tile .col{
+	padding: 0;
+}
+
+.tile-img{
+	font-size: 0;
+}
+
+.tile-img img{
+	width: 100%;
+}
+
+.tile-desc {
+	text-align: center;
+}
+
+.tile .tile-desc{
+	padding: 5% 8%;
+	color: white;
+}
+
+.tile.special{
+	background-color: #27ae60;
+}
+
+.tile.weddings{
+	background-color: #c0392b;
+}
+
+.tile.corporate{
+	background-color: #2c3e50;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+}
+
+
 .cards .col h4{
 	left: 0;
     position:absolute;
