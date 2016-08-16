@@ -1,4 +1,9 @@
-@font-face { font-family: calendas; src: url('../fonts/calendas.tff'); } 
+@font-face { 
+	font-family: calendas;
+	src: 	url('../fonts/calendas.tff'),
+			url('../fonts/calendas.otf');
+
+} 
 @font-face { font-family: braxton; src: url('../fonts/Braxton.otf'); }
 @font-face { font-family: variane; src: url('../fonts/variane.ttf'); } 
 
@@ -11,16 +16,20 @@ h1, h2, h3, h5 {
 }
 
 h2 {
-	width: 150px;
     text-align: center;
     margin: 0 auto;
     font-size: 30px;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
 }
 
 h3{
-	font-size: 24px;
+	font-size: 28px;
+	text-align: center;
+}
+
+h4{
+	font-family: braxton;
+	color: #474747;
+	font-size: 28px;
 	text-align: center;
 }
 
@@ -34,6 +43,13 @@ a{
 
 .brand-logo{
 	margin-top: 10px;
+}
+
+.divider {
+	height: 2px;
+	background-color: #bcbcbc;
+	width: 40px;
+	margin: 10px auto;
 }
 
 .logo-red, .btn, .btn-large{
@@ -164,11 +180,17 @@ a{
 }
 
 */
+.panel {
+	margin-bottom: 0;
+	border-top: 1px solid #e0e0e0;
+}
 
 .tile-wrapper{
 	display:-webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 0;
+	padding: 3%;
 }
 
 .tile{
@@ -241,4 +263,8 @@ footer.page-footer {
 
 footer .btn{
 	margin-top: 10px;
+}
+
+.no-mar-bot{
+	margin-bottom: 0;
 }
